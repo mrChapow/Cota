@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cota Lab // Archive 001</title>
+    <title>Fuego Cota // Archive 001</title>
     
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
     
@@ -148,6 +148,11 @@
             text-transform: uppercase;
             letter-spacing: 0.1em;
             cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+        
+        .cta-button:hover {
+            opacity: 0.8;
         }
 
         /* MOBILE ADJUSTMENTS */
@@ -172,18 +177,17 @@
         <div class="grain-overlay"></div>
 
         <header class="header-container">
-            <div class="brand-id">COTA // LAB</div>
+            <div class="brand-id">FUEGO COTA // LAB</div>
             <nav class="top-nav">
                 <a href="#" class="nav-link">Home</a>
-                <a href="#" class="nav-link active">Blackmarket</a>
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Legal</a>
+                <a href="#" class="nav-link active">Archive</a>
+                <a href="#" class="nav-link">Process</a>
             </nav>
         </header>
 
         <model-viewer 
-            src="Mockup-Cota-w3sl-tshirt.glb" 
-            alt="Cota Lab Product"
+            src="mockup-Cota-w3sl-tshirt.glb" 
+            alt="Cota Lab W3SL T-Shirt"
             auto-rotate 
             camera-controls
             disable-zoom
@@ -199,15 +203,15 @@
         <div class="interface">
             <div class="bottom-ui">
                 <div class="product-info">
-                    <h1 class="product-title">Archive 001</h1>
+                    <h1 class="product-title">W3SL T-Shirt</h1>
                     <p class="product-description">
-                        hand made with waater based ink, skreen printed on the highest quailty cotton. Edition limited to archive availability.
+                        Heavyweight cotton tee, screen-printed by hand using water-based inks. This release operates on a pre-order model to directly fund the independent Cota print shop. Edition limited to archive availability.
                     </p>
                 </div>
 
                 <div class="purchase-zone">
-                    <span class="price">$1.75</span>
-                    <button class="cta-button">Acquire</button>
+                    <span class="price">$40.00</span>
+                    <button class="cta-button">Pre-Order</button>
                 </div>
             </div>
         </div>
